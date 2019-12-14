@@ -1,2 +1,4 @@
 # Face_detection
-Face_and_Eye detection using opencv in python
+Here i used OpenCv which is from Intel I implemented it with Python
+in this project it will detect the face and Eyes of humans using cascades
+in videos and Images
