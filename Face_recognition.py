@@ -1,7 +1,7 @@
 import numpy as np 
 import cv2 as cv 
-face_cascade=cv.CascadeClassifier("/Users/alpha/Desktop/face_detection/haar-cascade-files-master/haarcascade_frontalface_alt2.xml")
-eyes_cascade=cv.CascadeClassifier("/Users/alpha/Desktop/face_detection/haar-cascade-files-master/haarcascade_eye_tree_eyeglasses.xml")
+face_cascade=cv.CascadeClassifier("haarcascade_frontalface_alt2.xml")
+eyes_cascade=cv.CascadeClassifier("haarcascade_eye_tree_eyeglasses.xml")
 #loading the harcascade using CascadeClassifier methon in cv
 cap=cv.VideoCapture(0)#argument as 0 because we are using the web camera here if you have multiple cameras u can use 1,2,3,..
 while True:
